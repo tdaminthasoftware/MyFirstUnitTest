@@ -13,4 +13,8 @@ class Engine(
         isTurnedOn = false
         temperature = 50
     }
+
+    fun resetEngineMeter(){
+        println("reset success")
+    }
 }
